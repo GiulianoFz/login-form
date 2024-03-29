@@ -23,12 +23,17 @@ body{
 
 .main{
   display: flex;
-  justify-content: center;
   box-shadow: 0 0 6px #222;
   backdrop-filter: blur(7px);
   padding: 10rem 10rem;
 }
 
-.main>h1{
-  display: flex;
+.main, h1{
+  font-family: Kanit, Arial;
+  font-weight: bold 700;
+  
 }
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap')
