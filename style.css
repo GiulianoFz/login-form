@@ -13,12 +13,22 @@ body, html {
   background-size: cover;
 }
 
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
 .main{
   display: flex;
   justify-content: center;
-}
-.main div{
-  width: 100px;
-  height: 100px;
+  box-shadow: 0 0 6px #222;
+  backdrop-filter: blur(7px);
+  padding: 10rem 10rem;
 }
 
+.main>h1{
+  display: flex;
+}
