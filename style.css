@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
 body, html {
   height: 100%;
 
@@ -23,17 +27,62 @@ body{
 
 .main{
   display: flex;
+  border-radius: 10% 30% 50% 50%;
   box-shadow: 0 0 6px #222;
   backdrop-filter: blur(7px);
+    /* size */
   padding: 10rem 10rem;
 }
 
 .main, h1{
-  font-family: Kanit, Arial;
+  font-family: "Kanit", Arial;
   font-weight: bold 700;
   
 }
 
+input{
+padding:16px 35px;
+margin-bottom: 10px;
+border-radius: 10px;
+background-color: #494848 ;
+}
+    /* styles the placeholder nicely */
+  ::placeholder{
+    font-family: "reddit mono", Arial;
+    color: #ffffffcf;
+    ;
+  }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap')
+form button {
+
+
+  background-color: #7ea5ef;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 30px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover,
+button:focus {
+  background-color: #9cb9ef;
+}
