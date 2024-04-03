@@ -27,16 +27,19 @@ body{
 
 .main{
   display: flex;
-  border-radius: 10% 30% 50% 50%;
+  border-radius:  10% 10%;
   box-shadow: 0 0 6px #222;
-  backdrop-filter: blur(7px);
+  backdrop-filter: blur(11px);
     /* size */
   padding: 10rem 10rem;
 }
 
 .main, h1{
+
   font-family: "Kanit", Arial;
   font-weight: bold 700;
+  display: block;
+  
   
 }
 
@@ -55,7 +58,6 @@ background-color: #494848 ;
 
 
 form button {
-
 
   background-color: #7ea5ef;
   border-radius: 8px;
@@ -85,4 +87,24 @@ form button {
 button:hover,
 button:focus {
   background-color: #9cb9ef;
+}
+
+.social-icons{
+  display: inline-block;;
+}
+
+.socials{
+  border: none;
+  background: none;
+  padding: 0;
+  max-width: 10%;
+  border-radius: 1;
+  
+  
+}
+
+.bg-color{
+  /* background-color: #ffffffe2; */
+  border-radius: 11%;
+  padding: 10% 10%;
 }
